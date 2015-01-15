@@ -10,3 +10,14 @@ function isAVowel(x){
 }
 
 isAVowel("d");  // returns false
+
+/*
+	alt solution
+	function isAVowel(x){
+		var vowels = ["a","e","i","o","u"];
+		if (vowels.indexOf(x) !== -1){
+			return true;
+		}
+		return false;
+	}
+*/

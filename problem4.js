@@ -3,14 +3,14 @@
 // Problem #4
 function sumArray(passedArray) {
     for(var i = 0, runningTot = 0; i < passedArray.length; i++){
-        runningTot = runningTot + passedArray[i];
+        runningTot += passedArray[i];
     }
     return runningTot;
 }
 
 function multiplyArray(passedArray) {
     for(var i = 0, runningTot = 1; i < passedArray.length; i++){
-        runningTot = runningTot * passedArray[i];
+        runningTot *= passedArray[i];
     }
     return runningTot;
 }
